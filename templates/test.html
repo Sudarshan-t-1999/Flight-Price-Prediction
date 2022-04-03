@@ -1,0 +1,14 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Price</title>
+</head>
+<body> -->
+{% extends 'index.html' %}
+{% block content %}
+    <br>
+    <h1><p style="color: yellow;">The price for the flight is around Rs. {{'%0.2f'|format((prediction-1667.26)|float)}} to Rs. {{('%0.2f'|format((prediction+1667.26)|float))}}.</p></h1>
+{% endblock content %}
+<!-- </body>
+</html> -->
