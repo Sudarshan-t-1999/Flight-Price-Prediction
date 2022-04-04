@@ -3,15 +3,15 @@ import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 import joblib
 
-app = Flask(__name__)
+application = Flask(__name__)
 
 
-@app.route('/')
+@application.route('/')
 def home():
     return render_template('index.html')
 
 
-@app.route('/test', methods=['GET', 'POST'])
+@application.route('/test', methods=['GET', 'POST'])
 def test():
     if request.method == 'POST':
         data = {
@@ -59,6 +59,6 @@ def test():
 
 
 if __name__=='__main__':
-    app.run()
+    application.run()
 
 
