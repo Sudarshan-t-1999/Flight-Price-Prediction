@@ -6,12 +6,12 @@ import joblib
 app = Flask(__name__)
 
 
-@application.route('/')
+@app.route('/')
 def home():
     return render_template('index.html')
 
 
-@application.route('/test', methods=['GET', 'POST'])
+@app.route('/test', methods=['GET', 'POST'])
 def test():
     if request.method == 'POST':
         data = {
