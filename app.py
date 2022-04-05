@@ -3,7 +3,7 @@ import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 import joblib
 
-application = Flask(__name__)
+app = Flask(__name__)
 
 
 @application.route('/')
@@ -59,6 +59,6 @@ def test():
 
 
 if __name__=='__main__':
-    application.run()
+    app.run()
 
 
