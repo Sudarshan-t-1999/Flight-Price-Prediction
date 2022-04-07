@@ -70,7 +70,7 @@ def test():
         prediction = model.predict(input_df)
         
         # rendering the webpage to show the predicted answer
-        return render_template('test.html', prediction=float(prediction[0]))
+        return render_template('price.html', prediction=float(prediction[0]))
 
 
 if __name__=='__main__':
