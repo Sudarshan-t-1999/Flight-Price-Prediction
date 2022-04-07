@@ -13,7 +13,7 @@ def home():
     return render_template('index.html')
 
 # rendering the result page
-@app.route('/test', methods=['GET', 'POST'])
+@app.route('/price', methods=['GET', 'POST'])
 def test():
     if request.method == 'POST':
         # accepting the inputs from the webpage and storing them inside a dictionary to be converted into a dataframe 
