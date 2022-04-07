@@ -106,6 +106,14 @@ Enter the details of the flight to know its price.
             <input type="time" id="Arrival_Time" name="Arrival_Time">
         </div>
 
+        <div>
+            One Way / Return:
+            <select name="return" id="return">
+                <option value="false">One Way</option>
+                <option value="true">Return</option>
+            </select>
+        </div>
+
         <button>Submit</button>
 </form>
 {% block content %}{% endblock %}

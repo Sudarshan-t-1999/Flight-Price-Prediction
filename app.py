@@ -68,6 +68,9 @@ def test():
         
         # using the model to predict the flight ticket price
         prediction = model.predict(input_df)
+
+        if request.form['return']=='true':
+            prediction= 2*prediction
         
         # rendering the webpage to show the predicted answer
         return render_template('price.html', prediction=float(prediction[0]))
