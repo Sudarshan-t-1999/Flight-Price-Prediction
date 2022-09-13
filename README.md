@@ -5,7 +5,7 @@ The objective of this project is to predict the price of a flight ticket based o
 
 The backend of this project is made using the **Flask** library of python and the frontend with **HTML**.
 
-## How to run this project in local machine?
+## How to run this project in your machine?
 * First, download the contents of this repository to your local machine. You can do this by cloning the repository using the `git clone <repository url>` in Command Prompt(if you do not have git installed, download and install it from the git website) or click on the code button and then on 'Download ZIP' button and extract the files.
 * Make sure you have installed python in your machine. If not, download and install it from the official python website.
 * If not installed, open command prompt or powershell and install `virtualenv` python library using the command `pip install virtualenv` and then create a virtual environment using the command `virtualenv <environment name>` to run the program in. 
