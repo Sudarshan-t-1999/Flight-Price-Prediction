@@ -24,7 +24,7 @@ The backend of this project is made using the **Flask** library of python and th
 * Select the Departure and Arrival Time.
 * Select whether it is a One-Way or with Return ticket.
 * Click on the Submit button.
-* This will display the result, which is the range for the ticket price in the format `The price for the flight is around Rs. <lower limit> to Rs. <upper limit>.`. 
+* This will display the result, which is the range for the ticket price in the format `The price for the flight is around Rs. <lower limit> to Rs. <upper limit>`. 
 
 ## Credits
 * This project was made by referencing and applying the concepts learnt from [this vedio](https://www.youtube.com/watch?v=v5dqavbyE-I&list=PLZoTAELRMXVPzj1D0i_6ajJ6gyD22b3jh&index=4) on [Krish Naik's](https://github.com/krishnaik06) [YouTube channel](https://www.youtube.com/user/krishnaik06)
