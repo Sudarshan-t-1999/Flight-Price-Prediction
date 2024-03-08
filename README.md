@@ -27,5 +27,5 @@ The backend of this project is made using the **Flask** library of python and th
 * This will display the result, which is the range for the ticket price in the format `The price for the flight is around Rs. <lower limit> to Rs. <upper limit>`. 
 
 ## Credits
-* This project was made by referencing and applying the concepts learnt from [this vedio](https://www.youtube.com/watch?v=v5dqavbyE-I&list=PLZoTAELRMXVPzj1D0i_6ajJ6gyD22b3jh&index=4) on [Krish Naik's](https://github.com/krishnaik06) [YouTube channel](https://www.youtube.com/user/krishnaik06)
+* This project was made by referencing and applying the concepts learnt from [this video](https://www.youtube.com/watch?v=v5dqavbyE-I&list=PLZoTAELRMXVPzj1D0i_6ajJ6gyD22b3jh&index=4) on [Krish Naik's](https://github.com/krishnaik06) [YouTube channel](https://www.youtube.com/user/krishnaik06)
 * The dataset used in this project is available at https://github.com/krishnaik06/5-Days-Live-EDA-and-Feature-Engineering/tree/main/Flight%20Prediction
